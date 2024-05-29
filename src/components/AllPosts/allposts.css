@@ -1,0 +1,46 @@
+.icons{
+    font-size: 20px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+.comment_input{
+    all: unset;
+    border-bottom: 1px solid rgb(224, 220, 220);
+}
+.addcmt_btn{
+    border: none;
+    background-color: rgb(248, 245, 245);
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 800;
+    padding: 11px;
+    border-radius: 3px;
+}
+.p-dialog .p-dialog-header {
+    border-bottom: 0 none;
+    background: #ffffff;
+    color: #374151;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top:0rem;
+    padding-bottom: 0rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.p-dialog .p-dialog-content {
+    background: #ffffff;
+    color: #4b5563;
+    padding: 0 0rem 0rem 1px;
+}
+.nonScrollable{
+overflow-y: none;
+position: static;
+width: 50%;
+height: 18rem;
+}
+.scrollable{
+    overflow-y: scroll;
+}
+.headercontent{
+    font-size: 12px;
+}

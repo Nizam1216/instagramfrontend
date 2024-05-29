@@ -1,0 +1,23 @@
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; /* Adjust the gap between cards as needed */
+  }
+  
+  .post-card {
+    width: 100%;
+    height: 18rem; /* Ensure the height matches your image styling */
+  }
+  
+  @media (max-width: 768px) {
+    .posts-grid {
+      grid-template-columns: repeat(2, 1fr); /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .posts-grid {
+      grid-template-columns: 1fr; /* Adjust for even smaller screens */
+    }
+  }
+  

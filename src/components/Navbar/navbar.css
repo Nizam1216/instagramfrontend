@@ -1,0 +1,40 @@
+.sidebar{
+    width: 16%;
+    background-color: rgb(249, 246, 246);
+    height: 100vh;
+    border-right: 1px solid rgb(201, 197, 197);
+}
+.logo{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 600;
+    font-style: normal;
+    height: 20px !;
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 56px;
+    color: rgb(0, 0, 0);
+}
+.side_links{
+    cursor: pointer;
+}
+ul li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 199, 199);
+    border-radius: 3px;
+}
+.uls_div>ul{
+    text-decoration: none;
+    list-style: none;
+    margin-left: -50px;
+    
+}
+ul li{
+    padding: 3px 3px 3px 10px;
+    cursor: pointer;
+    text-align: left;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}

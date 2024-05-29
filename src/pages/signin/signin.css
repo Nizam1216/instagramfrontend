@@ -1,0 +1,21 @@
+.sideimage{
+    height: 100%;
+    object-fit: cover;
+}
+.signup-text{
+    font-size: 30px;
+    font-family: poppins;
+    line-height: normal;
+    color: black;
+}
+.sign{
+    font-size: 20px;
+    font-family: poppins;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    background-color: rgba(48, 48, 255, 0.884);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 6px;
+}
